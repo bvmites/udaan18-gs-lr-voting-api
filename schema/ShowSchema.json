@@ -1,0 +1,35 @@
+{
+  "type": "object",
+  "properties": {
+    "_id": {
+      "type": "string"
+    },
+    "GsEventId": {
+      "type": "string"
+    },
+    "GsEventName": {
+      "type": "string"
+    }
+    "LrEventId": {
+      "type": "string"
+    },
+    "LrEventName": {
+      "type": "string"
+    },
+    "GsVotes" : {
+      "type" : "number",
+      "default": 0
+    },
+    "LrVotes" : {
+      "type" : "number",
+      "default": 0
+    }
+  },
+  "required": [
+    "_id",
+    "GsEventId",
+    "GsEventName",
+    "LrEventId",
+    "LrEventName"
+  ]
+}
